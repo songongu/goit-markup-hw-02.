@@ -1,0 +1,201 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --nav-color: #2196F3;
+} 
+
+body {
+    font-family:var(--main-font)
+}
+/* 
+header/footer
+*/
+.menu {
+    list-style-type: none;
+
+}
+.menu>li a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,41px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.menu>li a:hover {
+    color: var(--nav-color);
+}
+/*____________________________________________*/
+/*
+buttons
+*/
+.button {  
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: var(--nav-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {background-color: var(--secondary-color)
+
+
+}
+
+.buttons button {
+  background-color: var(--nav-color);
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.buttons button:not(:last-child) {
+  border-right: none;
+}
+
+
+.buttons button:hover {
+  background-color: var(--secondary-color);
+}
+/*___________________________________________*/
+/* header fonts */
+/* efektywne rozwiazania dla waszego biznesu */
+.font1{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #000;
+
+}
+/* czym sie zajmujemy / nasz zespół */
+.font2{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*lorem ipsum...*/
+.font3-h>li h4{ 
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+    
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-color);
+}
+
+.font3>li p{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 215px;
+    top: 800px;
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-color);
+}
+
+.font4-h>li h4{
+    width: 72px;
+    height: 19px;
+    left: 314px;
+    top: 1925px;
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+color: var(--main-color);
+}
+
+.font4-h>li p{
+    width: 130px;
+    height: 19px;
+    left: 285px;
+    top: 1954px;
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-color);
+}
+
+/* portfolio fonts */
+.font5-h>li h3{
+
+    width: 322px;
+    height: 36px;
+    left: 239px;
+    top: 1010px;
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+    color: var(--main-color);
+
+}
+
+.font5>li p{
+    width: 322px;
+    height: 30px;
+    left: 639px;
+    top: 616px;
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-color);
+
+}
+
+
+

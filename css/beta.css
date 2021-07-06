@@ -1,0 +1,118 @@
+:root {
+    --main-font: "Roboto","sans-serif";
+    --second-font: "Raleway","sans-serif";
+    --main-color: #212121;
+    --second-color: #757575;
+    --nav-color: #2196F3;
+}
+.body {
+    font-family:var(--main-font)
+}
+/*zmienne*/
+
+/*____________________
+menu header/footer
+____________________*/
+.menu {
+    list-style-type: none;
+
+}
+.menu>li a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,41px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.menu>li a:hover {
+    color: var(--nav-color);
+}
+
+
+/*
+button zamów usługę
+*/
+/*
+.button {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0,06em;
+	color: #fff ;
+	background: var(--nav-color);
+	display: inline-block;
+    cursor: pointer;
+    
+
+}
+.button:hover {
+	background: var(--main-color);
+
+}
+*/
+
+.button {
+    width: 200;
+    height: 50;
+    cursor: pointer;
+    background-color: var(--nav-color);
+    color: #fff;
+    display: inline-block;
+    font: var(--main-font);
+    font-size: 16px;
+    text-align: center;
+
+}
+.button:focus
+
+
+    
+.buttons button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.buttons button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.buttons:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.buttons button:hover {
+  background-color: #3e8e41;
+}
+/*
+logo
+*/
+
+.web {
+    font-family: "Raleway", "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #2196f3;
+    font-size: 26px;
+    line-height: 1.192;
+}
+.studio {
+    font-family: "Raleway", "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #212121;
+    font-size: 26px;
+    line-height: 1.192;
+    
+}
+
+
+
